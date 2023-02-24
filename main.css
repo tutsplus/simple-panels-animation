@@ -93,7 +93,6 @@ body {
 	display: flex;
 	height: 100%;
 	padding: 100px 15px;
-	overflow-y: auto;
 }
 
 .page-main > div {
@@ -129,6 +128,10 @@ body {
 
 .loaded.second-round .panels .panel {
 	clip-path: inset(0 0 100% 0);
+}
+
+.loaded.third-round {
+	overflow: auto;
 }
 
 .loaded.third-round .page-main > div > * {
